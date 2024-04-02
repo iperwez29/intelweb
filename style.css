@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orangered;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 13px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    font-size: bold;
+    font-family: Arial;
+}
+ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 320px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid orangered;
+    padding: 10px;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: orangered;
+    border: 1px solid orangered;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    padding-left: 20px;
+   font-size: 50px;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 9%;
+   letter-spacing: 2px; 
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.4s;
+}
+.content .cn a {
+    text-decoration: none;
+    color: black;
+}
+.cn:hover {
+    background-color: #fff;
+}
+.content span{
+    color: orangered;
+}
+.form{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient( to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    margin-top: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: #fff;
+    transition: 0.3s;
+
+}
+.btnn:hover{
+    background: #fff;
+    color: orangered;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+}
+.lw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.icons ion-icon{
+    padding-left: 18px;
+}
+.icons ion-icon:hover{
+    color: orangered;
+}
